@@ -27,6 +27,29 @@
                                     },
                                     "simultaneous": [
                                         {
+                                            "key_code": "d"
+                                        },
+                                        {
+                                            "key_code": "f"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
                                             "key_code": "j"
                                         },
                                         {
@@ -535,7 +558,7 @@
                         "key_code": "f11"
                     },
                     "to": {
-                        "consumer_key_code": "volume_decrement"
+                        "key_code": "f11"
                     }
                 },
                 {
@@ -543,7 +566,7 @@
                         "key_code": "f12"
                     },
                     "to": {
-                        "consumer_key_code": "volume_increment"
+                        "key_code": "f12"
                     }
                 }
             ],
@@ -559,6 +582,14 @@
                     },
                     "to": {
                         "key_code": "fn"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": {
+                        "key_code": "escape"
                     }
                 }
             ],
